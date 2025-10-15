@@ -27,39 +27,7 @@ Su objetivo es **automatizar la atención de clientes** y **asistir en la venta 
 
 ## 🏗️ Estructura del proyecto
 
-Chatbot-Js/
-│
-├── 📄 package.json
-├── 📄 server.js
-├── 📄 .env
-├── 📄 .gitignore
-│
-├── 📁 src/
-│   ├── 📁 config/
-│   │   ├── db.js
-│   │   └── deepseek.js
-│   │
-│   ├── 📁 routes/
-│   │   └── whatsappRoutes.js
-│   │
-│   ├── 📁 controllers/
-│   │   └── whatsappController.js
-│   │
-│   ├── 📁 services/
-│   │   ├── twilioService.js
-│   │   └── deepseekService.js
-│   │
-│   ├── 📁 models/
-│   │   └── messageModel.js
-│   │
-│   ├── 📁 utils/
-│   │   └── logger.js
-│   │
-│   └── 📁 middleware/
-│       └── errorHandler.js
-│
-└── 📁 docs/
-    └── arquitectura.md
+<pre> ## 📂 Estructura del proyecto ```bash Chatbot-js/ │ ├── package.json ├── server.js ├── .env ├── .gitignore │ ├── src/ │ ├── config/ │ │ ├── db.js │ │ └── deepseek.js │ │ │ ├── routes/ │ │ └── whatsappRoutes.js │ │ │ ├── controllers/ │ │ └── whatsappController.js │ │ │ ├── services/ │ │ ├── twilioService.js │ │ └── deepseekService.js │ │ │ ├── models/ │ │ └── messageModel.js │ │ │ ├── utils/ │ │ └── logger.js │ │ │ └── middleware/ │ └── errorHandler.js │ └── docs/ └── arquitectura.md ``` </pre>
 
 ## 📂 Explicación de carpetas
 | Carpeta / Archivo  | Descripción                                                                                     |

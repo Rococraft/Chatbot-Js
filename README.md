@@ -88,14 +88,17 @@ El siguiente codigo, es una representacion grafica de como seria el archivo .env
 PORT=3000
 
 #DeepSeek
+-
 DEEPSEEK_API_KEY=tu_clave_deepseek
 
 #Twilio (WhatsApp API)
+-
 TWILIO_ACCOUNT_SID=tu_sid
 TWILIO_AUTH_TOKEN=tu_token
 TWILIO_WHATSAPP_NUMBER=whatsapp:+14155238886
 
 #SQL Server
+-
 DB_USER=sa
 DB_PASSWORD=12345
 DB_SERVER=localhost
